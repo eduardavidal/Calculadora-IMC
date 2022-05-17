@@ -86,26 +86,6 @@ ul {
   float: left;
 }
 
-.busca {
-  margin-right: 50px;
-  float: right;
-  position: relative;
-  text-align: center;
-}
-
-.busca input {
-  background-image: url("../imagens/pesquisar.png");
-  background-repeat: no-repeat;
-  background-size: 18px;
-  background-position: 96%;
-  padding: 7px;
-  outline: none;
-  margin-top: 10px;
-  height: 14px;
-  width: 150px;
-  border: 1px solid #bdaaba;
-}
-
 .col-100 {
   width: 100%;
   display: flex;
@@ -223,12 +203,6 @@ h1 {
   text-shadow: #a5a5a5 0px 1px 5px;
 }
 
-section {
-  text-align: justify;
-  justify-content: center;
-  margin: auto;
-}
-
 .artigo {
   background-color: #252525;
   -webkit-box-shadow: 5px 5px 6px 4px rgba(0, 0, 0, 0.47);
@@ -294,4 +268,17 @@ p {
 #calculo {
   margin-left: auto;
   margin-right: auto;
+}
+
+.tabela-ref {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+
+td {
+  border: 1px solid #ffffff;
+  padding: 2px;
+  text-align: left;
+  width: auto;
 }
