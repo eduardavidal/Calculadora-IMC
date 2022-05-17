@@ -1,4 +1,4 @@
-const calcular = document.getElementById("calcular");
+const calcular = document.getElementById("calculate-button");
 
 function imc() {
   const nome = document.getElementById("nome").value;
