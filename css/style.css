@@ -103,7 +103,8 @@ ul {
   position: relative;
   color: #fafafa;
   margin: 0 auto;
-  margin-top: 45px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   display: flex;
   flex-direction: column;
   width: 325px;
@@ -186,12 +187,11 @@ aside {
 }
 
 footer {
-  display: block;
-  width: inherit;
+  margin: 0 auto;
+  padding: 20px;
   font-size: 12px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
-  margin-bottom: 10px;
 }
 
 h1 {
@@ -209,7 +209,7 @@ h1 {
   box-shadow: 5px 5px 6px 4px rgba(0, 0, 0, 0.47);
   opacity: 90%;
   color: #ffffff;
-  margin: auto;
+  margin: 0 auto;
   border-radius: 10px;
   display: block;
   width: 40%;
